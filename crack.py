@@ -4,7 +4,6 @@ import time
 from hashlib import md5
 import sys
 import os
-import subprocess
 from termcolor import colored
 
 
@@ -112,6 +111,7 @@ try:
 
 	if __name__ == "__main__":
 		os.system('clear')
+		#os.system('cls') 	 # for windows
 		
 		banner()
 
